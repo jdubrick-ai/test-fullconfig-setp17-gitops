@@ -1,0 +1,7 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: test-fullconfig-setp17-database-config
+data:
+  VECTORDB_HOST: "test-fullconfig-setp17-database"
+  VECTORDB_PORT: ""
